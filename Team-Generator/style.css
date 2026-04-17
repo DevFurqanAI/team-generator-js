@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira Stencil', cursive;
+    color: #eee;
+    background-color: #222;
+}
+
+/* Layout */
+header {
+    position: relative;
+    height: 35vh; 
+    border-bottom: 7px solid #eee;
+}
+
+main {
+    height: 65vh; 
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+    border-bottom: 7px solid #eee;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: auto;
+    border-bottom: 7px solid #eee;
+}
+
+.left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.right {
+    width: 52rem;
+    font-size: 2rem;
+}
+
+.team-card {
+    width: 30rem;
+    padding: 2rem;
+    background-color: #eee;
+    border: 1px solid red;
+    height: auto;
+    color: black;
+    margin: 2rem;
+}
+
+.team-card > div {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-names, .team-number {
+    font-family: inherit;
+}
+
+.team-number {
+    background: #eee;
+    color: #222;
+    font-size: 6rem;
+    width: 15rem;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.again {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.team-names {
+    background: none;
+    border: 4px solid rgb(238, 238, 238);
+    color: inherit;
+    font-size: 2rem;
+    padding: 5.5rem;
+    width: 55rem;
+    display: block;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+.btn, .select-action {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    outline-color: #eee;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.message {
+    margin-bottom: 2rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.label-score {
+    margin-bottom: 2rem;
+}
